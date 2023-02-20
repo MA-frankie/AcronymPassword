@@ -26,6 +26,8 @@ public class PasswordGenerator {
     replacements.put("whatever","w/e");
     replacements.put("You my queen","Ymq");
     replacements.put("everything", "evth");
+    replacements.put("right now", "rn");
+    replacements.put("Right now", "rn");
 
     // Create a Scanner object for user input
     Scanner scanner = new Scanner(System.in);
