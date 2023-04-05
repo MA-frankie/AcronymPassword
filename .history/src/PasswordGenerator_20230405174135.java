@@ -39,9 +39,6 @@ public class PasswordGenerator {
         System.out.println("3. Quit program");
 
         int choice = scanner.nextInt();
-        System.out.println("Please enter the product name: ");
-        String productName = scanner.nextLine();
-
         scanner.nextLine(); // consume the newline character
 
         switch (choice) {
